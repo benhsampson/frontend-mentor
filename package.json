@@ -8,7 +8,8 @@
     "typecheck": "tsc",
     "lint": "eslint .",
     "check": "run-s typecheck lint",
-    "format": "prettier -w ."
+    "format": "prettier -w .",
+    "deploy": "fly deploy --remote-only"
   },
   "dependencies": {
     "@radix-ui/react-popover": "^0.1.6",
